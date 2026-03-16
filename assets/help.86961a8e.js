@@ -1,0 +1,1 @@
+import{N as a,C as t}from"./index.282fb31a.js";function e(e){return a.post({url:t.BaseUrl+"api/index/help",data:e},{isAuth:!0,withToken:!0})}function i(e){return a.post({url:t.BaseUrl+"api/index/helpDetail",data:e},{isAuth:!0,withToken:!0})}export{i as a,e as r};

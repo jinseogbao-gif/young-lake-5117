@@ -1,0 +1,1 @@
+import{G as t,C as a}from"./index.82540a8c.js";const e=e=>t.get({url:a.BaseUrl+"Quotes/getAllSymbols",data:e},{isAuth:!0,withToken:!0}),s=e=>t.post({url:a.BaseUrl+"user/doRealNameAuthentication",method:"post",data:e}),o=e=>t.post({url:a.BaseUrl+"user/getRealNameAuthentication",method:"post",data:e});export{o as a,s as d,e as g};

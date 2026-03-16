@@ -1,0 +1,1 @@
+import{M as a,C as t}from"./index.69aa6c97.js";function r(r){return a.post({url:t.BaseUrl+"api/UserBank/list",data:r},{isAuth:!0,withToken:!0})}function s(r){return a.post({url:t.BaseUrl+"api/UserBank/add",data:r},{isAuth:!0,withToken:!0})}function e(r){return a.post({url:t.BaseUrl+"api/UserBank/delete",data:r},{isAuth:!0,withToken:!0})}export{e as a,s as b,r};

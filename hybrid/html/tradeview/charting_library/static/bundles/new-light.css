@@ -1,0 +1,87 @@
+.my2 {
+  /*background: none;不能删*/
+}
+
+.chart-page .chart-container {
+  border: none;
+}
+
+.layout__area--center {
+  border-top: 1px solid #eee;
+}
+
+.header-group-properties {
+  float: right;
+}
+
+.header-group-indicators {
+  float: right;
+}
+
+.header-chart-panel .header-group-fullscreen {
+  float: right;
+  /* display: none; */
+}
+
+.bottom-widgetbar-content.backtesting .button,
+.header-chart-panel .button {
+  /*width: 20px;*/
+  padding: 7px 5px;
+  border: none;
+  background: none;
+  /*height: 30px;*/
+  /*line-height: 15px;*/
+  color: #999;
+}
+
+.header-chart-panel .button.mydate {
+  color: #0165FC !important;
+  border-bottom: 4px solid #0165FC !important
+}
+
+.layout__area--top .group-wWM3zP_M- .my2 {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.layout__area--top .group-wWM3zP_M- .mydate {
+  color: #0165FC !important;
+  height: 100%;
+  border-bottom: 2px solid #0165FC !important
+}
+
+.js-rootresizer__contents {
+  background: #fff;
+}
+
+.pane-legend-line.pane-legend-wrap.study,
+.control-bar-wrapper,
+.pane-controls,
+.pane-legend-line .pane-legend-icon-container,
+.pane-legend .pane-legend-minbtn.apply-common-tooltip.apply {
+  display: none;
+}
+
+.header-chart-panel-content>.left>.group:nth-last-child(1) {
+  display: inline-block;
+}
+
+/*  以下为图表弹框自定义 */
+
+
+@media screen and (max-width: 600px) {
+  .chart-page ._tv-dialog {
+    width: 98%;
+    min-width: none;
+    top: 0 !important;
+  }
+
+  .chart-page ._tv-dialog .main-properties {
+    height: 250px !important;
+  }
+
+  .chart-page ._tv-dialog .properties-tabs a.properties-tabs-label {
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,1 @@
+import{r as t}from"./index.bbe502bb.js";function a(a){const r=t(!1);return{isLock:r,lockFn:async(...t)=>{if(!r.value){r.value=!0;try{const e=await a(...t);return r.value=!1,e}catch(e){throw r.value=!1,e}}}}}export{a as u};
