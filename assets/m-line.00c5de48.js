@@ -1,1 +1,0 @@
-import{j as s,k as t,x as r}from"./index.bbe502bb.js";import{_ as e}from"./u-gap.81bb4251.js";var o=e({},[["render",function(e,o){const i=r;return s(),t(i,{src:"/static/component/m-line.svg",style:{width:"100%"},mode:"widthFix"})}]]);export{o as M};

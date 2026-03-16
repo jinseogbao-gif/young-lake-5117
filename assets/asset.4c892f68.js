@@ -1,1 +1,0 @@
-import{G as t,C as e}from"./index.82540a8c.js";const a=a=>t.get({url:e.BaseUrl+"/enum/main",method:"get",data:a},{isAuth:!0,withToken:!0}),s=a=>t.get({url:e.BaseUrl+"/wallet/getTransactionLog",method:"get",data:a},{isAuth:!0,withToken:!0}),o=a=>t.get({url:e.BaseUrl+"/wallet/getRechargeLog",method:"get",data:a},{isAuth:!0,withToken:!0});export{s as a,o as b,a as g};

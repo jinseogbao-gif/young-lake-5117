@@ -1,1 +1,0 @@
-import{j as s,k as t,y as r}from"./index.19f4c8c0.js";import{_ as a}from"./u-gap.3417a9ea.js";var e=a({},[["render",function(a,e){const o=r;return s(),t(o,{src:"/static/component/m-line.svg",style:{width:"100%"},mode:"widthFix"})}]]);export{e as M};
